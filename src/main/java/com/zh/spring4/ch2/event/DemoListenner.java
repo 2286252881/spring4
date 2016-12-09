@@ -1,7 +1,9 @@
 package com.zh.spring4.ch2.event;
 
 import org.springframework.context.ApplicationListener;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DemoListenner implements ApplicationListener<DemoEvent>{
 
 	@Override
